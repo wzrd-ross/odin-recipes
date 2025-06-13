@@ -21,10 +21,29 @@ div {
 
 }
 
-.reuben {
-
+.reubenpic {
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
 }
 
-.lentil-dahl {
-    
+.reubenpic img {
+    align: center;
+    height: 150px;
+    width: 300px;
+}
+
+.lentil-dahl-pic {
+    align: center;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.lentil-dahl-pic img {
+    height: 500px;
+    width: 333px;
+    object-fit: cover;
 }
