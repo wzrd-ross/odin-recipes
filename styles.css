@@ -1,36 +1,28 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-}
+
 
 header {
     background-color: black;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    display: block;
-
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    vertical-align: middle;
 }
 
 .inner-header {
     width: 1000px;
     height: 100%;
-    display: block;
+    display: flex;
     margin: 0 auto;
     background-color: red;
 }
 
-.logo-container {
-    height: 100%;
-    display: table;
-    float: left;
-}
 
-.logo-container h1 {
+h1 {
     color: white;
     height: 100%;
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
     font-family: Helvetica, sans-serif;
     font-weight: 800;
@@ -38,22 +30,32 @@ header {
 
 .navigation a {
     height: 100%;
-    display: table;
+    display: inline-flex;
+    flex-wrap: wrap;
     float: left;
     padding: 0px 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+.navigation ul {
+    float: right;
+    height: 100%;
+    float: right;
+
 }
 
 .navigation li {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .navigation {
-    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
@@ -62,4 +64,34 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.home-page {
+    margin-top: 105px;
+}
+
+.recent {
+
+}
+
+.reubenpic {
+    height: 150px;
+    width: 300px;
+}
+
+.reubenpic img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.lentil-dahl-pic {
+    height: 150px;
+    width: 300px;
+}
+
+.lentil-dahl-pic img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
 }
